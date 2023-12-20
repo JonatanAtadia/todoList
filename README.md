@@ -1,8 +1,22 @@
-# React + Vite
+# ToDoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a basic ToDo list web application built with React, allowing users to add, delete, and reorder tasks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+**Add Task:**
+Enter a task in the input field.
+Click the "Add" button to add the task to the list.
+
+**Delete Task:**
+Each task has a "Delete" button to remove it from the list.
+
+**Reorder Tasks:**
+Use the "👆" button to move a task up in the list.
+Use the "👇" button to move a task down in the list.
+
+## App
+
+![An example of how the application looks](exampleApp.png)
